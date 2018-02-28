@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Per V</title>
+
+        <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+<body>
+  <img class="bck-img" src="img/background.jpg"  />
+  <div class="scope"></div>
+<header>
+  <img src="img/PerV_Guld_Logo_png.png" alt="Per Vers logo"/>
+</header>
+  <main>
+
+<!-- <div class="container">-->
+
+
+ <div id="btnbox">
+  <div id="b1" class="ch-item ch-img-1"><!--<img src="img/knustkunst1.png" alt="per">-->
+    <div class="ch-info">
+      <h3>Per V</h3>
+      <p>  <a href="http://per.tv">View on Per.tv</a></p>
+    </div>
+</div>
+  <div id="b2" class="ch-item ch-img-1"><!--<img src="img/knustkunst2.png" alt="per">-->
+    <div class="ch-info">
+    <h3>Video</h3>
+            <p>  <a href="https://www.youtube.com/user/perpunktumtv">View on youtube</a></p>
+          </div></div>
+  <div id="b3" class="ch-item ch-img-1"><!--<img src="img/knustkunst3.png" alt="per">-->
+    <div class="ch-info">
+            <h3>Song</h3>
+            <p> <a href="https://open.spotify.com/album/5YBvCfjw8PHYP0N7neOc6z">Stream on Spotify</a></p>
+          </div></div>
+</div>
+<!--  </div> -->
+  <!--kodning til video-->
+     <div class="player">
+       <video controls>
+         <source src="Målløs.wav" type="video/mp4">
+         <source src="Målløs.wav" type="video/webm">
+         <!-- fallback content here -->
+       </video>
+       <div class="controls">
+         <button class="play" data-icon="P" aria-label="play pause toggle"></button>
+         <button class="stop" data-icon="S" aria-label="stop"></button>
+         <div class="timer"><div></div><span aria-label="timer">00:00</span></div>
+         <button class="rwd" data-icon="B" aria-label="rewind"></button>
+         <button class="fwd" data-icon="F" aria-label="fast forward"></button>
+       </div>
+     </div>
+
+</main>
+
+<script src="js/jquery-3.3.1.js"></script><script src="js/script.js"></script>
+</body></html>
